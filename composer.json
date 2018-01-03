@@ -1,10 +1,11 @@
 {
   "name": "macavv/routes",
-  "description": ":A laravel package to list your routes and filter through them.",
+  "description": "A laravel package to list your routes and filter through them.",
   "keywords": [
     "laravel",
     "macavv",
-    "router"
+    "routes",
+    "laravel-routes"
   ],
   "homepage": "https://github.com/macavv/routes",
   "license": "MIT",
@@ -25,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Macavv\\Router\\": "src"
+      "Macavv\\Routes\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Macavv\\Router\\Test\\": "tests"
+      "Macavv\\Routes\\Test\\": "tests"
     }
   },
   "scripts": {
