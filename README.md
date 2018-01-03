@@ -7,52 +7,31 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-
-**NOTE:**
-- Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```router``` ```Router``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md), [PackageServiceProvider.php](src/PackageServiceProvider.php) and [composer.json](composer.json) files.
-- Rename the file [PackageServiceProvider.php](src/PackageServiceProvider.php) and the Provider class to reflect the Router.
-- Delete the above lines up and including **NOTE:**.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+A simple laravel package to view your application routes and filter through them.
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require macavv/router
+$ composer require macavv/routes
 ```
 
 ## Usage
 
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+Open browser and go to your application url 
+
+```bash
+cd laravel-project
+php artisan serve
+http://localhost:8000/routes
 ```
 
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Testing
-
-``` bash
-$ composer test
-```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please contact [LaraLeague](https://github.com/lara-league).
-
-## Credits
-
-- [:author_name][link-author]
-- [All Contributors][link-contributors]
+- [Jagadesha NH][https://github.com/jagadeshanh]
 
 ## License
 
