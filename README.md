@@ -14,7 +14,7 @@ A simple laravel package to view your application routes and filter through them
 Via Composer
 
 ``` bash
-$ composer require "macavv/routes:*"
+$ composer require macavv/routes:dev-master
 ```
 
 ## Usage
