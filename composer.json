@@ -1,5 +1,5 @@
 {
-  "name": "macavv/router",
+  "name": "macavv/routes",
   "description": ":A laravel package to list your routes and filter through them.",
   "keywords": [
     "laravel",
