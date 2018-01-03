@@ -1,0 +1,44 @@
+{
+  "name": "macavv/router",
+  "description": ":A laravel package to list your routes and filter through them.",
+  "keywords": [
+    "laravel",
+    "macavv",
+    "router"
+  ],
+  "homepage": "https://github.com/macavv/routes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": ":Jagadesha NH",
+      "email": ":opensource@macavv.com",
+      "homepage": ":macavv.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "illuminate/support": "~5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Macavv\\Router\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Macavv\\Router\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
